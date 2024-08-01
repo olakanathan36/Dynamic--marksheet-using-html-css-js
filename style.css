@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color: #FFAF00;
+    --secondary-color:#B43F3F;
+    --dark-color1:#C63C51;
+    --dark-color2:#0511F2;
+}
+tr,td{
+    border: 1px solid;
+}
+#QRcode{
+    width: 100px;
+}
+.section{
+    width: 65vw;
+    margin: auto;
+}
+.container{
+    border: 4px solid var(--primary-color);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.span1{
+    display: flex;
+    margin: 5px 0 0 5px;
+    font-weight: bold;
+}
+span #p2{
+    color: var(--dark-color1);
+    margin-left: 2px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+}
+#QRcode{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.title{
+    margin-top: 5px;
+}
+#title{
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+#subtitle1{
+    font-size: 18px;
+}
+#subtitle2{
+    font-size: 17px;
+}
+.subsection h4{
+    text-align: center;
+    font-weight: 700;
+    color: #F2600C;
+}
+.subsection{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+.subsection .para1{
+    font-size: 15px;
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.subsection .para2{
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.subsection .subsec{
+    border: 2px solid;
+    box-sizing: border-box;
+}
+.subsection1{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.subsection1 .subsec{
+    border: 1px solid;
+    padding: 0px;
+}
+.subsection1 .subsec1{
+    padding: 0px;
+}
+.subsection1 .para3{
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+.subsection1 .para4{
+    font-size: 17px;
+}
+.subsection1 .p4{
+    margin: 0;
+    margin-bottom: 22px;
+}
+.subsection1 .theory,.practical{
+    width: 75px;
+    margin: 5px 0;
+}
+.subsection2{
+    border: 1px solid;
+    text-align: left;
+}
+.subsection2 p{
+    color: var(--dark-color1);
+    margin: 2px;
+}
+.subsection2 span{
+    color: black;
+    margin-left: 5px;
+}
+.subsection3 p{
+    border: 1px solid black;
+    margin: 0;
+}
+.subsection3 .subsec2{
+    padding: 0;
+}
+.subsection3 .p{
+    color: var(--secondary-color);
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.footer .p{
+    margin: 0;
+    margin-top: 65px;
+    color: var(--dark-color1);
+}
+.footer #date{
+    color: black;
+}
+.footer .signpara{
+    color: var(--dark-color1);
+}
